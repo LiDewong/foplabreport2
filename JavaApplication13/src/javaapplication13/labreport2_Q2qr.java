@@ -10,6 +10,7 @@ public class labreport2_Q2qr {
         System.out.println(power(2021));
     }
     
+    
     public static String power(int x){
         String expression=x+" = ";
         int sum=0,cnt=1;
