@@ -22,11 +22,13 @@ public class labreport2_Q4ld {
         System.out.println("Enter elements of array a : ");
         for (int i = 0; i < elements; i++) {
             a[i] = Integer.parseInt(s.next());
+            // a[i] = s.nextInt(); ?
         }
 
         System.out.println("Enter elements of array b : ");
         for (int i = 0; i < elements; i++) {
             b[i] = Integer.parseInt(s.next());
+            // b[i] = s.nextInt(); ?
         }
 
         System.out.println(MaxSumOfXOR( a, b,0));
