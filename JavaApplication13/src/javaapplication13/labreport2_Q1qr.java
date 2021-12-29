@@ -1,6 +1,6 @@
 /*Write a Java method that accepts an integer array as parameter and returns the median of the array in double.
  */
-package lr2q1;
+package javaapplication13;
 import java.util.Scanner;
 public class labreport2_Q1qr {
     public static void main(String[] args) {    //main method
