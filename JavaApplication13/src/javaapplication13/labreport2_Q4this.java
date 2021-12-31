@@ -38,14 +38,14 @@ public class labreport2_Q4this {
         int[] a1 = {2,4,5,7,10};
         int[] b1 = {13,14,15,16,17};
 
-        System.out.print("The maximum sum of XOR : ");
+        System.out.print("The maximum sum of XOR: ");
 
         System.out.println(MaxSumXOR(a1, b1,0));
         
         int[] a2 = {174, 521, 24, 224, 831, 179, 712, 97};
         int[] b2 = {281, 33, 122, 415, 611, 235, 737, 81};
 
-        System.out.print("The maximum sum of XOR : ");
+        System.out.print("The maximum sum of XOR: ");
 
         System.out.println(MaxSumXOR(a2, b2,0));
 }
