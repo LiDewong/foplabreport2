@@ -12,11 +12,11 @@ public class labreport2_Q4this {
         int max = 0;
         int[] indexArray = new int[n];
 
-        int facn = 1;
+        int factorial = 1;
         for (int i = 2; i <= n; i++)
-            facn *= i;
+            factorial *= i;
 
-        for (int num = 0; num < facn; num++) {
+        for (int num = 0; num < factorial; num++) {
             
             for (int nb = num, i = 1; i <= n; nb /= i, i++)
                 indexArray[n - i] = nb % i;
