@@ -23,8 +23,9 @@ public class labreport2_Q4this {
 
             for (int i = n-1; i >= 0; i--)
                 for (int j = i+1; j < n; j++)
-                    if (indexArray[j] >= indexArray[i]) indexArray[j]++;
-
+                    if (indexArray[j] >= indexArray[i]) {
+                        indexArray[j]++;
+                    }
        int sum = 0;
             for (int i = 0; i < n; i++)
                 sum += a[i] ^ b[indexArray[i]];
