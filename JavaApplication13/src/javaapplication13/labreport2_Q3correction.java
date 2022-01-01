@@ -24,7 +24,6 @@ public class labreport2_Q3correction {
         for (int i = index1 == 0? 1 : 0; i < 10; i++) {
             input[index1] = String.valueOf(i);
             if (count1 == 1) {
-                input[index1] = String.valueOf(i);
                 // add this for loop
                 s1 = "";
                 for (int j = 0; j < input.length; j++) {
