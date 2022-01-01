@@ -19,13 +19,14 @@ public class labreport2_Q3correction {
         int index1 = s.indexOf("?");
         int index2 = s.indexOf("?", index1+1);
         int index3 = s.indexOf("?", index2+1);
-        String s1;
+        String s1; // no s2, s3
         
         for (int i = index1 == 0? 1 : 0; i < 10; i++) {
             input[index1] = String.valueOf(i);
             if (count1 == 1) {
-                s1 = "";
                 input[index1] = String.valueOf(i);
+                // add this for loop
+                s1 = "";
                 for (int j = 0; j < input.length; j++) {
                     s1 += input[j];
                 }
@@ -38,6 +39,7 @@ public class labreport2_Q3correction {
                 for (int j = 0; j < 10; j++) {
                     input[index2] = String.valueOf(j);
                     if (count1 == 2) {
+                        // add this for loop
                         s1 = "";
                         for (int m = 0; m < input.length; m++) {
                             s1 += input[m];
@@ -50,6 +52,7 @@ public class labreport2_Q3correction {
                     else {
                         for (int m = 0; m < 10; m++) {
                             input[index3] = String.valueOf(m);
+                            // add this for loop
                             s1 = "";
                             for (int n = 0; n < input.length; n++) {
                                 s1 += input[n];
